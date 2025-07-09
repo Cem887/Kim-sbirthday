@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ein Geschenk für Dich</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #121212;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1, h2, h3 { color: #ffb6c1; text-align: center; }
+    .section { padding: 40px 20px; }
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px auto;
+      max-width: 800px;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
+    }
+    button:hover { background-color: #ff85c1; }
+    .hidden { display: none; }
+    iframe {
+      display: block;
+      margin: 0 auto;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Ein Geschenk für Dich</h1>
+    <div class="card">
+      <h2>🎁 Das verlorene Kapitel</h2>
+      <p>
+        Ich wollte dir ein Kapitel schenken, das Andy & Leyley nie hatten.<br>
+        <em>„Du öffnest die Tür. Es ist dunkel. Doch da liegt ein Zettel.“</em><br><br>
+        📜 „Wenn du das hier liest, dann hast du das versteckte Kapitel freigeschaltet: eines, das Andy & Leyley nie erlebt haben. Eines, in dem du geliebt wirst, ohne Schmerz.“
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🎶 Dein Lied</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ho08YLYDM88" title="Happy Birthday To You Song – Fun Video for Children" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="card">
+      <h2>💖 18 Komplimente an Dich</h2>
+      <button onclick="showCompliments()">Klick hier für deine Komplimente</button>
+      <div id="compliments" class="hidden">
+        <p>1. Ich liebe die Feinjustierung deines Verstandes – wie du analytische Brillanz mit intuitiver Klarheit vermählst, als wäre Logik ein Akt der Fürsorge.</p>
+        <p>2. Ich liebe deine Resilienz – dein Vermögen, selbst aus seelischen Trümmern noch Kathedralen zu erbauen.</p>
+        <p>3. Ich liebe deine Kreativität – in ihr liegt ein anarchisches Leuchten: verspielt, wild, unzähmbar schön.</p>
+        <p>4. Ich liebe dein Staunen – dieses kindliche Element, das selbst in Abgründen noch nach Sternen sucht.</p>
+        <p>5. Ich liebe deine Ruhe – nicht als Schweigen, sondern als sanftes Gegenmittel zum Getöse der Welt.</p>
+        <p>6. Ich liebe dein Vertrauen – wie du Menschen Raum gibst, in sich selbst heimzukehren.</p>
+        <p>7. Ich liebe deine Widersprüchlichkeit – wie du Zartheit und Stärke, Tiefe und Leichtigkeit so kunstvoll verkörperst, als wären sie aus einem Guss.</p>
+        <p>8. Ich liebe deinen Mut, zärtlich zu bleiben – auch dann, wenn alles in dir laut werden möchte.</p>
+        <p>9. Ich liebe deine feinen Antennen – wie du spürst, was keiner sagt, und fühlst, was keiner wagt.</p>
+        <p>10. Ich liebe, dass dein Herz nicht nur schlägt, sondern ruft – nach Gerechtigkeit, nach Licht, nach Menschlichkeit.</p>
+        <p>11. Ich liebe deinen Mut, zärtlich zu bleiben – auch dann, wenn alles in dir laut werden möchte.</p>
+        <p>12. Ich liebe deine Sprachmelodie – wie du Klang in Bedeutung verwandelst, als würdest du nicht sprechen, sondern komponieren.</p>
+        <p>13. Ich liebe deine Art zu erinnern – wie du selbst dem Vergänglichen etwas Bleibendes schenkst.</p>
+        <p>14. Ich liebe deine Präsenz – nicht weil sie laut ist, sondern weil sie nachhallt, wie ein Gedanke, der nicht gehen will.</p>
+        <p>15. Ich liebe deine Authentizität – diese seltene Kunst, du selbst zu sein, nicht laut, sondern standhaft, mit einer Würde, die sich keinem Zeitgeist beugt.</p>
+        <p>16. Ich liebe deine Liebesfähigkeit – sie ist wenig besitzergreifend, sondern nährend, wie Licht für Pflanzen.</p>
+        <p>17. Ich liebe deine Sensibilität – sie ist kein Makel, sondern ein Sensorium für Tiefe.</p>
+        <p>18. Ich liebe deine Marotten:
+        <br>– wie du das „s“ manchmal so sprichst, dass es wie ein Zischen klingt – spitz, charmant, unverkennbar du.
+        <br>– wie du, wenn du verletzt bist, ganz klein wirst – wie ein ungepanzertes Wesen, das man nur halten kann, ohne zu fragen.
+        <br>– wie du fordernd und frech bist, fast trotzig – aber darunter glitzert eine Zärtlichkeit, die dir selbst manchmal zu groß ist.</p>
+        <p><strong>Meine Liebe zu dir speist sich nicht aus dem, was du leistest, sondern aus dem, was du in deinem bloßen Sein verkörperst.</strong></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🪙 Dein Steam-Gutschein</h2>
+      <p>Der Code wird dir separat auf Steam geschickt – damit du dir selbst etwas Besonderes gönnen kannst. 🎮💝</p>
+    </div>
+
+    <div class="card">
+      <h2>✨ Outro</h2>
+      <p>Vielleicht sind wir noch nicht lange verbunden, doch was ich jetzt schon sehe, fühlt sich tief an. Du bist ein Geschenk an die Welt. Und heute... feiere ich dich. Alles Liebe zum Geburtstag! 💗</p>
+    </div>
+
+  </div>
+
+  <script>
+    function showCompliments() {
+      document.getElementById('compliments').classList.remove('hidden');
+    }
+  </script>
+
+</body>
+</html>
